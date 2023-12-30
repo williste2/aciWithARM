@@ -31,7 +31,7 @@
     "containerInstanceName": "[concat('ContainerInstance',variables('deploymentId'))]",
     "location": "[resourceGroup().location]",
     "deploymentId": "[uniqueString(resourceGroup().id)]",
-    "instanceApiVersion": "2018-10-01"
+    "instanceApiVersion": "2023-12-30"
   },
   "resources": [
     {
